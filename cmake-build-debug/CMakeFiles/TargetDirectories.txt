@@ -1,0 +1,5 @@
+/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/CMakeFiles/banking.dir
+/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/CMakeFiles/tests.dir
+/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/CMakeFiles/test.dir
+/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/CMakeFiles/rebuild_cache.dir

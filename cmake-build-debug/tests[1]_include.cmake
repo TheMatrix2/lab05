@@ -1,0 +1,5 @@
+if(EXISTS "/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/tests[1]_tests.cmake")
+  include("/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()
