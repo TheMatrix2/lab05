@@ -1,5 +1,5 @@
+#include "Transaction.h"
 #include "Account.h"
-#include <gmock/gmock.h>
 #include <gtest/gtest.h>
 
 TEST(Account, Balance) {
@@ -20,4 +20,13 @@ TEST(Account, Locking) {
     EXPECT_EQ(account.GetBalance(), 249);
 }
 
-
+TEST(Transaction, DataBase) {
+    Account from(123, 1000);
+    Account to(789, 500);
+    Transaction transaction;
+    transaction.set_fee(100);
+    EXPECT_TRUE(transaction.Make(from, to, 500));
+    EXPECT_FALSE(transaction.Make(from, to, 100));
+    EXPECT_EQ(from.GetBalance(), 1000);
+    EXPECT_EQ(to.GetBalance(), 400);
+}

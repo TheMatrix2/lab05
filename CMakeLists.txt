@@ -16,8 +16,7 @@ target_include_directories(banking PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/banking)
 
 add_executable(tests
-        ${CMAKE_CURRENT_SOURCE_DIR}/banking_test/account_test.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/banking_test/transaction_test.cpp)
+        ${CMAKE_CURRENT_SOURCE_DIR}/banking_test/tests.cpp)
 
 target_link_libraries(tests banking GTest::gtest_main)
 
