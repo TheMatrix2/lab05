@@ -1,4 +1,4 @@
-name: CMake
+name: CI
 
 on:
   push:
@@ -7,23 +7,39 @@ on:
     branches: [ "master" ]
 
 env:
-  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
   BUILD_TYPE: Release
 
 jobs:
   build:
-    # The CMake configure and build commands are platform agnostic and should work equally well on Windows or Mac.
-    # You can convert this to a matrix build if you need cross-platform coverage.
-    # See: https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/managing-complex-workflows#using-a-build-matrix
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
+  
+    - name: Setup
+      run: |
+        sudo apt update
+        sudo apt install -y cmake
+        sudo apt install -y git
+        sudo apt install -y libgtest-dev
+        sudo apt install -y lcov
 
-    - name: Configure and builв
+    - name: Test
       run: |
         mkdir build
         cd build
+        mkdir coverage
+        touch coverage/lcov.info
         cmake ..
         make
+        ./tests
+
+    - name: Coverage
+      run: |
+          lcov --capture --directory . -o ./lcov.info
+          lcov --remove lcov.info '*/gtest/*' '/usr/*' -o lcov.info
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v2.0.0
+      with:
+        path-to-lcov: "./lcov.info"
 
