@@ -103,9 +103,9 @@ build CMakeFiles/tests.dir/banking_test/tests.cpp.o: CXX_COMPILER__tests_Debug /
 #############################################
 # Link the executable tests
 
-build tests: CXX_EXECUTABLE_LINKER__tests_Debug CMakeFiles/tests.dir/banking_test/tests.cpp.o | libbanking.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgmock_main.a /usr/local/lib/libgmock.a /usr/local/lib/libgtest.a || libbanking.a
+build tests: CXX_EXECUTABLE_LINKER__tests_Debug CMakeFiles/tests.dir/banking_test/tests.cpp.o | libbanking.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a || libbanking.a
   FLAGS = -fprofile-arcs -ftest-coverage -g
-  LINK_LIBRARIES = libbanking.a  /usr/local/lib/libgtest_main.a  /usr/local/lib/libgmock_main.a  /usr/local/lib/libgmock.a  /usr/local/lib/libgtest.a
+  LINK_LIBRARIES = libbanking.a  /usr/local/lib/libgtest_main.a  /usr/local/lib/libgtest.a
   OBJECT_DIR = CMakeFiles/tests.dir
   POST_BUILD = :
   PRE_LINK = :
