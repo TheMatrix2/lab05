@@ -1,0 +1,1 @@
+/usr/bin/c++ -fprofile-arcs -ftest-coverage CMakeFiles/tests.dir/banking_test/tests.cpp.o -o tests  libbanking.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgmock_main.a /usr/local/lib/libgmock.a /usr/local/lib/libgtest.a 
