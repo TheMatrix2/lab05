@@ -1,18 +1,10 @@
 # ninja log v5
 2456	2814	1680083394262226753	/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug/tests[1]_tests.cmake	edb41ae59d980954
-4	10035	1680082148535149273	CMakeFiles/gtest.dir/gtest/googletest/src/gtest-all.cc.o	70b7493481e90b22
-1	921	1680082139439069715	CMakeFiles/banking.dir/banking/Transaction.cpp.o	cdb5431788c9de5
-3	2467	1680084145204187639	CMakeFiles/tests.dir/banking_test/transaction_test.cpp.o	da1cc40f63dc65a0
-2456	2814	1680083394262226753	tests	edb41ae59d980954
-10036	10173	1680082148687150533	libgtest.a	1233b3277baff59d
-4	2621	1680082141139085231	CMakeFiles/gtest.dir/gtest/googletest/src/gtest_main.cc.o	2f7a90b5885a5855
-921	936	1680082139455069862	libbanking.a	a478b58f8853203d
-3	3098	1680084145836169399	CMakeFiles/tests.dir/banking_test/account_test.cpp.o	410a77f5481230d3
-1	642	1680082139159067138	CMakeFiles/banking.dir/banking/Account.cpp.o	b78a961b049f9373
-2456	2814	1680083394262226753	tests[1]_tests.cmake	edb41ae59d980954
-3	514	1680084474661933123	CMakeFiles/banking.dir/banking/Account.cpp.o	b76dcaf2442083dc
 4	672	1680084474821931363	CMakeFiles/banking.dir/banking/Transaction.cpp.o	3e44a8f4c11079dd
-672	685	1680084474833931231	libbanking.a	a478b58f8853203d
 5	2474	1680084476621911654	CMakeFiles/tests.dir/banking_test/transaction_test.cpp.o	e10227e2b443ff3
-4	3157	1680084477305904196	CMakeFiles/tests.dir/banking_test/account_test.cpp.o	b10d5434d344713d
 3157	3404	1680084477549901541	tests	b0a74158369a89a5
+10036	10173	1680082148687150533	libgtest.a	1233b3277baff59d
+672	685	1680084474833931231	libbanking.a	a478b58f8853203d
+4	3157	1680084477305904196	CMakeFiles/tests.dir/banking_test/account_test.cpp.o	b10d5434d344713d
+3	514	1680084474661933123	CMakeFiles/banking.dir/banking/Account.cpp.o	b76dcaf2442083dc
+2456	2814	1680083394262226753	tests[1]_tests.cmake	edb41ae59d980954
