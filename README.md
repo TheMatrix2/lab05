@@ -13,4 +13,4 @@ $ open https://github.com/google/googletest
 - [x] 3. Ознакомиться со ссылками учебного материала
 - [x] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
-https://coveralls.io/github/TheMatrix2/lab05
+[![Coverage Status](https://coveralls.io/repos/github/TheMatrix2/lab05/badge.png?branch=master)](https://coveralls.io/github/TheMatrix2/lab05?branch=master)
