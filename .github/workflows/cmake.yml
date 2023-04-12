@@ -26,8 +26,8 @@ jobs:
 
     - name: testing
       run: |
-        mkdir ../build
-        cd ../build
+        mkdir build
+        cd build
         mkdir coverage
         touch coverage/lcov.info
         cmake ..
