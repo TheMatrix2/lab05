@@ -2,18 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "BUILD_TEST",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build tests"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -127,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/233/bin/cmake/linux/x64/bin/cmake"
+			"value" : "/snap/clion/234/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -139,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/233/bin/cmake/linux/x64/bin/cpack"
+			"value" : "/snap/clion/234/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -151,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/233/bin/cmake/linux/x64/bin/ctest"
+			"value" : "/snap/clion/234/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -679,7 +667,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/snap/clion/233/bin/ninja/linux/x64/ninja"
+			"value" : "/snap/clion/234/bin/ninja/linux/x64/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -911,7 +899,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25"
+			"value" : "/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1150,6 +1138,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_GTest",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding GTest"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/local/lib/cmake/GTest/GTestConfig.cmake][c ][v1.13.0()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
@@ -1211,6 +1211,42 @@
 		},
 		{
 			"name" : "banking_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/thematrix/TheMatrix2/workspace/reports/lab05"
+		},
+		{
+			"name" : "lab05_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/thematrix/TheMatrix2/workspace/reports/lab05/cmake-build-debug"
+		},
+		{
+			"name" : "lab05_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "lab05_SOURCE_DIR",
 			"properties" : 
 			[
 				{

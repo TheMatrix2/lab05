@@ -62,6 +62,12 @@
 			{
 				"command" : 2,
 				"file" : 1,
+				"line" : 86,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
 				"line" : 66,
 				"parent" : 6
 			}
@@ -132,7 +138,17 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libgmock_main.a",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 7,
+				"fragment" : "/usr/local/lib/libgmock.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
 				"fragment" : "/usr/local/lib/libgtest.a",
 				"role" : "libraries"
 			}

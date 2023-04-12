@@ -19,7 +19,7 @@ target_include_directories(banking PUBLIC
 add_executable(tests
         ${CMAKE_CURRENT_SOURCE_DIR}/banking_test/tests.cpp)
 
-target_link_libraries(tests banking GTest::gtest_main)
+target_link_libraries(tests banking GTest::gtest_main GTest::gmock_main)
 
 enable_testing()
-add_test(NAME unit_tests COMMAND tests)
+add_test(NAME test COMMAND tests)

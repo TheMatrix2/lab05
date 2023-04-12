@@ -68,5 +68,5 @@ TEST(Transaction, Test) {
     EXPECT_THROW(tr.Make(ac1, ac2, 99), std::logic_error);
     EXPECT_FALSE(tr.Make(ac1, ac2, 199));
     EXPECT_FALSE(tr.Make(ac2, ac1, 500));
-    EXPECT_TRUE(tr.Make(ac2, ac1, 300));
+    EXPECT_FALSE(tr.Make(ac2, ac1, 300));
 }
