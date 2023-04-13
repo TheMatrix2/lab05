@@ -39,7 +39,7 @@ jobs:
       run: |
           lcov --capture --directory . -o ./lcov.info
           lcov --remove lcov.info '*/gtest/*' '/usr/*' -o lcov.info
-    - name: Coveralls GitHub Action
+    - name: Coveralls with GitHub Action
       uses: coverallsapp/github-action@v2.0.0
       with:
         path-to-lcov: "./lcov.info"
